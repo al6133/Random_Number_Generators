@@ -1,26 +1,25 @@
 # Pseudo Random Number Generators 
 ISYE-6644 - Simulation
 
-This folder contains the code to create the generators, implement statistical tests and print the results and plots. 
+This folder contains the code to create the pseudo random generators, perform statistical tests on them & compare their runtime efficiency. 
 
 PRNG Implemented - 
 1. Linear Congruential Generator 
-  - Desert Island Generator
-  - RANDU Generator
+    - Desert Island Generator
+    - RANDU Generator
 2. Mid-Squared Generator
 3.Tausworth Generator
 4. Mersenne Twister Generator
 
 Statistical Test Implemented -
-1.	Goodness of Fit tests -  are the PRNs approximately Unif [0,1)?
-  •	Chi-Square Frequency Test
-  •	Kolmogorov-Smirnov Test 
-2. Independence Tests - are the PRNs approximately independent?  
-  •	Runs Test - Up & Down
-  •	Runs Test - Above & Below Mean
-  •	Autocorrelation Test for independence
-
-
+1.	Goodness of Fit Tests -  are the PRNs approximately Unif (0,1)?
+      - Chi-Square Frequency Test 
+      - Kolmogorov-Smirnov Test 
+2.	Independence Tests - are the PRNs approximately independent? 
+    - Runs Test - Up & Down 
+    - Runs Test - Above & Below Mean
+    - Autocorrelation Test for independence
+  
 Here is a brief description of each file:
 
 - *generators.py* - contains the code for implementation of all the generators and the statistical tests mentioned in the report
