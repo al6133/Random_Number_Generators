@@ -1,5 +1,4 @@
 # Pseudo Random Number Generators 
-ISYE-6644 - Simulation
 
 This folder contains the code to create the pseudo random generators, perform statistical tests on them & compare their runtime efficiency. 
 
